@@ -1,0 +1,65 @@
+
+
+h2 {
+   display: flex;
+   justify-content: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+   background-color: #ddd;
+    color: black;
+  }
+.contents {
+    background: crimson;
+    
+}
+
+
+/* Data Tables */
+.grid-container {
+    margin-top: 5%;
+    display: grid;
+    height: auto;
+    align-content: center;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+
+    padding: 10px;
+
+  }
+  
+  .grid-container > div {
+  
+    text-align: center;
+    padding: 20px 0;
+    font-size: 10px;
+    height: auto;
+
+  }
+
+  .table {     
+    
+  }
+
+#mike::before {
+    padding: 2px;
+    color:cyan;
+
+}

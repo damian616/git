@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Ranking</title>
+    <script type="text/javascript" src="sort-table.js"></script>
+</head>
+<body>
+   
+    <div class="topnav">
+        <a href="#">Home</a>
+        <a href="#">Exit</a>
+    </div>
+    <h2>CSI Template</h2>
+    <input accept="excel" class="btn btn-info ng-valid" type="file">
+    <div class="contents bg-info">
+        <div class="grid-container">
+            <div class="col"><h1>Monthly</h1>
+                <div data-spy="scroll" data-target="#monthly" data-offset="0">
+                    <table class="table table-light table-hover" id="monthly">
+                        <thead class="table-dark">
+                            <tr>
+                                <th scope="col" class="bg-white border border-success text-success">Month Rank</th>
+                                <th scope="col">Agent Name</th>
+                                <th scope="col">Month Hrs</th>
+                                <th scope="col">RPC/Calls</th>
+                                <th scope="col">Cards</th>
+                                <th scope="col">App</th>
+                                <th scope="col" class="bg-white border border-danger text-danger">Rejected</th>
+                                
+                                <th scope="col">Conversion Rate/app</th>
+                                <th scope="col">Convertion Rate/cards</th>
+                                <th scope="col">V.P.H</th>
+                                <th scope="col">Edit</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                              <th scope="row">1</th>
+                              <td>Michael Camberos</td>
+                              <td>35.5</td>
+                              <td><div class="row_data" edit_type="click" col_name="RPC/Calls" contenteditable="true">100</div></td>
+                              <td><div class="row_data" edit_type="click" col_name="Cards" contenteditable="true">45</div></td>
+                              <td><div class="row_data" edit_type="click" col_name="App" contenteditable="true">27</div></td>
+                              <td><div class="row_data" edit_type="click" col_name="Rejected" contenteditable="true">0</div></td>
+                              <td>95%</td>
+                              <td>80%</td>
+                              <td><div class="row_data" edit_type="click" col_name="V.P.H" contenteditable="true">0.25</div></td>
+                              <td><input type="checkbox"/></td>
+                            </tr>
+                            <tr>
+                              <th scope="row">2</th>
+                              <td>Michael Camberos</td>
+                              <td>35.5</td>
+                              <td><div class="row_data" edit_type="click" col_name="RPC/Calls" contenteditable="true">100</div></td>
+                              <td><div class="row_data" edit_type="click" col_name="Cards" contenteditable="true">45</div></td>
+                              <td><div class="row_data" edit_type="click" col_name="App" contenteditable="true">27</div></td>
+                              <td><div class="row_data" edit_type="click" col_name="Rejected" contenteditable="true">0</div></td>
+                              <td>95%</td>
+                              <td>80%</td>
+                              <td><div class="row_data" edit_type="click" col_name="V.P.H" contenteditable="true">0.25</div></td>
+                              <td><input type="checkbox"/></td>
+                            </tr>
+                            <tr>
+                              <th scope="row">3</th>
+                              <td>Michael Camberos</td>
+                              <td>40.5</td>
+                              <td><div class="row_data" edit_type="click" col_name="RPC/Calls" contenteditable="true">100</div></td>
+                              <td><div class="row_data" edit_type="click" col_name="Cards" contenteditable="true">45</div></td>
+                              <td><div class="row_data" edit_type="click" col_name="App" contenteditable="true">27</div></td>
+                              <td><div class="row_data" edit_type="click" col_name="Rejected" contenteditable="true">0</div></td>
+                              <td>95%</td>
+                              <td>80%</td>
+                              <td><div class="row_data" edit_type="click" col_name="V.P.H" contenteditable="true">0.25</div></td>
+                              <td><input type="checkbox"/></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">4</th>
+                                <td>Michael Camberos</td>
+                                <td>35.5</td>
+                                <td><div class="row_data" edit_type="click" col_name="RPC/Calls" contenteditable="true">100</div></td>
+                                <td><div class="row_data" edit_type="click" col_name="Cards" contenteditable="true">45</div></td>
+                                <td><div class="row_data" edit_type="click" col_name="App" contenteditable="true">27</div></td>
+                                <td><div class="row_data" edit_type="click" col_name="Rejected" contenteditable="true">0</div></td>
+                                <td>95%</td>
+                                <td>80%</td>
+                                <td><div class="row_data" edit_type="click" col_name="V.P.H" contenteditable="true">0.25</div></td>
+                                <td><input type="checkbox"/></td>
+                              </tr>
+                              <tr>
+                                <th scope="row">4</th>
+                                <td>Michael Camberos</td>
+                                <td>35.5</td>
+                                <td><div class="row_data" edit_type="click" col_name="RPC/Calls" contenteditable="true">100</div></td>
+                                <td><div class="row_data" edit_type="click" col_name="Cards" contenteditable="true">45</div></td>
+                                <td><div class="row_data" edit_type="click" col_name="App" contenteditable="true">27</div></td>
+                                <td><div class="row_data" edit_type="click" col_name="Rejected" contenteditable="true">0</div></td>
+                                <td>95%</td>
+                                <td>80%</td>
+                                <td><div class="row_data" edit_type="click" col_name="V.P.H" contenteditable="true">0.25</div></td>
+                                <td><input type="checkbox"/></td>
+                              </tr>
+                              <tr>
+                                <th scope="row">5</th>
+                                <td>Michael Camberos</td>
+                                <td>20.5</td>
+                                <td><div class="row_data" edit_type="click" col_name="RPC/Calls" contenteditable="true">100</div></td>
+                                <td><div class="row_data" edit_type="click" col_name="Cards" contenteditable="true">45</div></td>
+                                <td><div class="row_data" edit_type="click" col_name="App" contenteditable="true">27</div></td>
+                                <td><div class="row_data" edit_type="click" col_name="Rejected" contenteditable="true">0</div></td>
+                                <td>95%</td>
+                                <td>80%</td>
+                                <td><div class="row_data" edit_type="click" col_name="V.P.H" contenteditable="true">0.25</div></td>
+                                <td><input type="checkbox"/></td>
+                              </tr>
+                              <tr>
+                                <th scope="row">6</th>
+                                <td>Michael Camberos</td>
+                                <td>35.5</td>
+                                <td><div class="row_data" edit_type="click" col_name="RPC/Calls" contenteditable="true">100</div></td>
+                                <td><div class="row_data" edit_type="click" col_name="Cards" contenteditable="true">45</div></td>
+                                <td><div class="row_data" edit_type="click" col_name="App" contenteditable="true">27</div></td>
+                                <td><div class="row_data" edit_type="click" col_name="Rejected" contenteditable="true">0</div></td>
+                                <td>95%</td>
+                                <td>80%</td>
+                                <td><div class="row_data" edit_type="click" col_name="V.P.H" contenteditable="true">0.25</div></td>
+                                <td><input type="checkbox"/></td>
+                              </tr>
+                              <tr>
+                                <th scope="row">7</th>
+                                <td>Michael Camberos</td>
+                                <td>35.5</td>
+                                <td><div class="row_data" edit_type="click" col_name="RPC/Calls" contenteditable="true">100</div></td>
+                                <td><div class="row_data" edit_type="click" col_name="Cards" contenteditable="true">45</div></td>
+                                <td><div class="row_data" edit_type="click" col_name="App" contenteditable="true">27</div></td>
+                                <td><div class="row_data" edit_type="click" col_name="Rejected" contenteditable="true">0</div></td>
+                                <td>95%</td>
+                                <td>80%</td>
+                                <td><div class="row_data" edit_type="click" col_name="V.P.H" contenteditable="true">0.25</div></td>
+                                <td><input type="checkbox"/></td>
+                              </tr>
+                              <tr>
+                                <th scope="row">8</th>
+                                <td>Michael Camberos</td>
+                                <td>35.5</td>
+                                <td><div class="row_data" edit_type="click" col_name="RPC/Calls" contenteditable="true">100</div></td>
+                                <td><div class="row_data" edit_type="click" col_name="Cards" contenteditable="true">45</div></td>
+                                <td><div class="row_data" edit_type="click" col_name="App" contenteditable="true">27</div></td>
+                                <td><div class="row_data" edit_type="click" col_name="Rejected" contenteditable="true">0</div></td>
+                                <td>95%</td>
+                                <td>80%</td>
+                                <td><div class="row_data" edit_type="click" col_name="V.P.H" contenteditable="true">0.25</div></td>
+                                <td><input type="checkbox"/></td>
+                              </tr>
+                              <tr>
+                                <th scope="row">9</th>
+                                <td>Michael Camberos</td>
+                                <td>35.5</td>
+                                <td><div class="row_data" edit_type="click" col_name="RPC/Calls" contenteditable="true">100</div></td>
+                                <td><div class="row_data" edit_type="click" col_name="Cards" contenteditable="true">45</div></td>
+                                <td><div class="row_data" edit_type="click" col_name="App" contenteditable="true">27</div></td>
+                                <td><div class="row_data" edit_type="click" col_name="Rejected" contenteditable="true">0</div></td>
+                                <td>95%</td>
+                                <td>80%</td>
+                                <td><div class="row_data" edit_type="click" col_name="V.P.H" contenteditable="true">0.25</div></td>
+                                <td><input type="checkbox"/></td>
+                              </tr>
+                              <tr>
+                                <th scope="row">10</th>
+                                <td>Michael Camberos</td>
+                                <td>35.5</td>
+                                <td><div class="row_data" edit_type="click" col_name="RPC/Calls" contenteditable="true">100</div></td>
+                                <td><div class="row_data" edit_type="click" col_name="Cards" contenteditable="true">45</div></td>
+                                <td><div class="row_data" edit_type="click" col_name="App" contenteditable="true">27</div></td>
+                                <td><div class="row_data" edit_type="click" col_name="Rejected" contenteditable="true">0</div></td>
+                                <td>95%</td>
+                                <td>80%</td>
+                                <td><div class="row_data" edit_type="click" col_name="V.P.H" contenteditable="true">0.25</div></td>
+                                <td><input type="checkbox"/></td>
+                              </tr>
+                          </tbody>
+                      </table>
+                </div>
+            </div>
+            
+            <div class="col bg-cyan-500"><h1>Weekly</h1>
+                <div>
+                    <table class="table table-light table-hover">
+                      <thead class="table-dark">
+                          <tr>
+                            <th scope="col" class="bg-white border border-success text-success">Week Rank</th>
+                            <th scope="col">Agent Name</th>
+                            <th scope="col">Week Hrs</th>
+                            <th scope="col">RPC/Calls</th>
+                            <th scope="col">Cards</th>
+                            <th scope="col">App</th>
+                            <th scope="col" class="bg-white border border-danger text-danger">Rejected</th>
+                            <th scope="col">Conversion Rate/app</th>
+                            <th scope="col">Convertion Rate/cards</th>
+                            <th scope="col">V.P.H</th>
+                            <th scope="col">Edit</th>
+                          </tr>
+                      </thead>
+                      <tbody >
+                        <tr>
+
+                            <th scope="row">1</th>
+                            <td class="bg-dark border border-danger text-success" id="mike">Michael Camberos</td>
+                            <td>35.5</td>
+                            <td><div class="row_data" edit_type="click" col_name="RPC/Calls" contenteditable="true">100</div></td>
+                            <td><div class="row_data" edit_type="click" col_name="Cards" contenteditable="true">45</div></td>
+                            <td><div class="row_data" edit_type="click" col_name="App" contenteditable="true">27</div></td>
+                            <td><div class="row_data" edit_type="click" col_name="Rejected" contenteditable="true">0</div></td>
+                            <td>95%</td>
+                            <td>80%</td>
+                            <td><div class="row_data" edit_type="click" col_name="V.P.H" contenteditable="true">0.25</div></td>
+                            <td><input type="checkbox"/></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>Michael Camberos</td>
+                            <td>35.5</td>
+                            <td><div class="row_data" edit_type="click" col_name="RPC/Calls" contenteditable="true">100</div></td>
+                            <td><div class="row_data" edit_type="click" col_name="Cards" contenteditable="true">45</div></td>
+                            <td><div class="row_data" edit_type="click" col_name="App" contenteditable="true">27</div></td>
+                            <td><div class="row_data" edit_type="click" col_name="Rejected" contenteditable="true">0</div></td>
+                            <td>95%</td>
+                            <td>80%</td>
+                            <td><div class="row_data" edit_type="click" col_name="V.P.H" contenteditable="true">0.25</div></td>
+                            <td><input type="checkbox"/></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">3</th>
+                            <td>Michael Camberos</td>
+                            <td>35.5</td>
+                            <td><div class="row_data" edit_type="click" col_name="RPC/Calls" contenteditable="true">100</div></td>
+                            <td><div class="row_data" edit_type="click" col_name="Cards" contenteditable="true">45</div></td>
+                            <td><div class="row_data" edit_type="click" col_name="App" contenteditable="true">27</div></td>
+                            <td><div class="row_data" edit_type="click" col_name="Rejected" contenteditable="true">0</div></td>
+                            <td>95%</td>
+                            <td>80%</td>
+                            <td><div class="row_data" edit_type="click" col_name="V.P.H" contenteditable="true">0.25</div></td>
+                            <td><input type="checkbox"/></td>
+                          </tr>
+                          <tr>
+                              <th scope="row">4</th>
+                              <td>Michael Camberos</td>
+                              <td>35.5</td>
+                              <td><div class="row_data" edit_type="click" col_name="RPC/Calls" contenteditable="true">100</div></td>
+                              <td><div class="row_data" edit_type="click" col_name="Cards" contenteditable="true">45</div></td>
+                              <td><div class="row_data" edit_type="click" col_name="App" contenteditable="true">27</div></td>
+                              <td><div class="row_data" edit_type="click" col_name="Rejected" contenteditable="true">0</div></td>
+                              <td>95%</td>
+                              <td>80%</td>
+                              <td><div class="row_data" edit_type="click" col_name="V.P.H" contenteditable="true">0.25</div></td>
+                              <td><input type="checkbox"/></td>
+                            </tr>
+                            <tr>
+                              <th scope="row">4</th>
+                              <td>Michael Camberos</td>
+                              <td>35.5</td>
+                              <td><div class="row_data" edit_type="click" col_name="RPC/Calls" contenteditable="true">100</div></td>
+                              <td><div class="row_data" edit_type="click" col_name="Cards" contenteditable="true">45</div></td>
+                              <td><div class="row_data" edit_type="click" col_name="App" contenteditable="true">27</div></td>
+                              <td><div class="row_data" edit_type="click" col_name="Rejected" contenteditable="true">0</div></td>
+                              <td>95%</td>
+                              <td>80%</td>
+                              <td><div class="row_data" edit_type="click" col_name="V.P.H" contenteditable="true">0.25</div></td>
+                              <td><input type="checkbox"/></td>
+                            </tr>
+                            <tr>
+                              <th scope="row">5</th>
+                              <td>Michael Camberos</td>
+                              <td>35.5</td>
+                              <td><div class="row_data" edit_type="click" col_name="RPC/Calls" contenteditable="true">100</div></td>
+                              <td><div class="row_data" edit_type="click" col_name="Cards" contenteditable="true">45</div></td>
+                              <td><div class="row_data" edit_type="click" col_name="App" contenteditable="true">27</div></td>
+                              <td><div class="row_data" edit_type="click" col_name="Rejected" contenteditable="true">0</div></td>
+                              <td>95%</td>
+                              <td>80%</td>
+                              <td><div class="row_data" edit_type="click" col_name="V.P.H" contenteditable="true">0.25</div></td>
+                              <td><input type="checkbox"/></td>
+                            </tr>
+                            <tr>
+                              <th scope="row">6</th>
+                              <td>Michael Camberos</td>
+                              <td>35.5</td>
+                              <td><div class="row_data" edit_type="click" col_name="RPC/Calls" contenteditable="true">100</div></td>
+                              <td><div class="row_data" edit_type="click" col_name="Cards" contenteditable="true">45</div></td>
+                              <td><div class="row_data" edit_type="click" col_name="App" contenteditable="true">27</div></td>
+                              <td><div class="row_data" edit_type="click" col_name="Rejected" contenteditable="true">0</div></td>
+                              <td>95%</td>
+                              <td>80%</td>
+                              <td><div class="row_data" edit_type="click" col_name="V.P.H" contenteditable="true">0.25</div></td>
+                              <td><input type="checkbox"/></td>
+                            </tr>
+                            <tr>
+                              <th scope="row">7</th>
+                              <td>Michael Camberos</td>
+                              <td>35.5</td>
+                              <td><div class="row_data" edit_type="click" col_name="RPC/Calls" contenteditable="true">100</div></td>
+                              <td><div class="row_data" edit_type="click" col_name="Cards" contenteditable="true">45</div></td>
+                              <td><div class="row_data" edit_type="click" col_name="App" contenteditable="true">27</div></td>
+                              <td><div class="row_data" edit_type="click" col_name="Rejected" contenteditable="true">0</div></td>
+                              <td>95%</td>
+                              <td>80%</td>
+                              <td><div class="row_data" edit_type="click" col_name="V.P.H" contenteditable="true">0.25</div></td>
+                              <td><input type="checkbox"/></td>
+                            </tr>
+                            <tr>
+                              <th scope="row">8</th>
+                              <td>Michael Camberos</td>
+                              <td>35.5</td>
+                              <td><div class="row_data" edit_type="click" col_name="RPC/Calls" contenteditable="true">100</div></td>
+                              <td><div class="row_data" edit_type="click" col_name="Cards" contenteditable="true">45</div></td>
+                              <td><div class="row_data" edit_type="click" col_name="App" contenteditable="true">27</div></td>
+                              <td><div class="row_data" edit_type="click" col_name="Rejected" contenteditable="true">0</div></td>
+                              <td>95%</td>
+                              <td>80%</td>
+                              <td><div class="row_data" edit_type="click" col_name="V.P.H" contenteditable="true">0.25</div></td>
+                              <td><input type="checkbox"/></td>
+                            </tr>
+                            <tr>
+                              <th scope="row">9</th>
+                              <td>Michael Camberos</td>
+                              <td>35.5</td>
+                              <td><div class="row_data" edit_type="click" col_name="RPC/Calls" contenteditable="true">100</div></td>
+                              <td><div class="row_data" edit_type="click" col_name="Cards" contenteditable="true">45</div></td>
+                              <td><div class="row_data" edit_type="click" col_name="App" contenteditable="true">27</div></td>
+                              <td><div class="row_data" edit_type="click" col_name="Rejected" contenteditable="true">0</div></td>
+                              <td>95%</td>
+                              <td>80%</td>
+                              <td><div class="row_data" edit_type="click" col_name="V.P.H" contenteditable="true">0.25</div></td>
+                              <td><input type="checkbox"/></td>
+                            </tr>
+                            <tr>
+                              <th scope="row">10</th>
+                              <td>Michael Camberos</td>
+                              <td>35.5</td>
+                              <td><div class="row_data" edit_type="click" col_name="RPC/Calls" contenteditable="true">100</div></td>
+                              <td><div class="row_data" edit_type="click" col_name="Cards" contenteditable="true">45</div></td>
+                              <td><div class="row_data" edit_type="click" col_name="App" contenteditable="true">27</div></td>
+                              <td><div class="row_data" edit_type="click" col_name="Rejected" contenteditable="true">0</div></td>
+                              <td>95%</td>
+                              <td>80%</td>
+                              <td><div class="row_data" edit_type="click" col_name="V.P.H" contenteditable="true">0.25</div></td>
+                              <td><input type="checkbox"/></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">11</th>
+                                <td>Michael Camberos</td>
+                                <td>35.5</td>
+                                <td><div class="row_data" edit_type="click" col_name="RPC/Calls" contenteditable="true">100</div></td>
+                                <td><div class="row_data" edit_type="click" col_name="Cards" contenteditable="true">45</div></td>
+                                <td><div class="row_data" edit_type="click" col_name="App" contenteditable="true">27</div></td>
+                                <td><div class="row_data" edit_type="click" col_name="Rejected" contenteditable="true">0</div></td>
+                                <td><div class="row_data" edit_type="click" col_name="conversion_rate" contenteditable="true">95%</div></td>
+                                <td>80%</td>
+                                <td><div class="row_data" edit_type="click" col_name="V.P.H" contenteditable="true">0.25</div></td>
+                                <td><input type="checkbox"/></td>
+                              </tr>
+                      </tbody>
+                    </table>
+                </div>
+            </div> 
+        </div>
+       
+    </div>
+    
+    
+</body>
+</html>
