@@ -1,0 +1,29 @@
+* {
+
+    
+}
+
+
+body {
+    background: #001f3fe1
+}
+
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.jform {
+    padding: 100px;
+    min-width:fit-content;
+    background-color: rgb(255, 255, 255)
+   
+
+}
+.jbody {
+    margin-left: 80px;
+    margin-right: 80px;
+   
+}
